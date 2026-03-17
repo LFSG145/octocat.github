@@ -1,0 +1,60 @@
+/* Custom styles */
+
+.email-link {
+  color: #0077B6; /* Ocean Blue */
+  text-decoration: none;
+}
+
+.email-link:hover {
+  color: #00bfff; /* lighter ocean blue */
+}
+
+/* Sidebar (left nav) background */
+#sideNav {
+  background-color: #0077B6 !important;
+}
+
+/* Social icon colors */
+.linkedin-icon {
+  color: #0077B6; /* Ocean Blue */
+}
+
+.instagram-icon {
+  color: #E4405F; /* Instagram's brand color */
+}
+
+.facebook-icon {
+  color: #1877F2; /* Facebook's brand color */
+}
+
+.gonzaga-logo {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+
+.sumner-logo {
+  height: 32px;
+  width: auto;
+  object-fit: contain;
+}
+
+.club-logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: center;
+}
+
+.club-logo {
+  height: 112px;
+  width: auto;
+  object-fit: contain;
+}
+
+.interests-photo {
+  width: 25%;
+  max-width: 100%;
+  height: auto;
+  border-radius: 0.5rem;
+}

@@ -1,0 +1,73 @@
+/* Custom overrides */
+:root {
+  --bs-primary: #0077be !important;
+}
+.img-profile {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+@media (min-width: 992px) {
+  .img-profile {
+    width: 16rem;
+    height: 16rem;
+  }
+}
+
+/* Sidebar (about page) ocean blue override */
+#sideNav {
+  background-color: #0077be !important;
+  background-image: none !important;
+}
+
+/* Change highlighted last name and email in About to ocean blue */
+#about .text-primary {
+  color: #0077be !important;
+}
+#experience .text-primary {
+  color: #000 !important;
+}
+#about .subheading a {
+  color: #0077be !important;
+}
+#about .subheading a:hover {
+  color: #005f94 !important;
+  text-decoration: underline;
+}
+
+/* Social icon colors */
+.fa-facebook-f { color: #1877f2; } /* Facebook blue */
+.fa-linkedin-in { color: #0077b5; } /* LinkedIn blue */
+.fa-instagram { color: #5040e4; } /* Instagram gradient-ish red-pink */
+
+/* Work location text */
+.work-location {
+  color: #000;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* Space out and enlarge social icons */
+.social-icon {
+  margin-right: 1.5rem;
+
+/* Change award trophy icons from orange to ocean blue */
+#awards .text-warning {
+  color: #0077be !important;
+}
+}
+
+/* Change sidebar nav links to ocean blue */
+#sideNav .nav-link {
+  color: #0077be !important;
+}
+#sideNav .nav-link:hover {
+  color: #005f94 !important;
+}
+.social-icon i {
+  font-size: 2rem;
+}
+.social-icon:last-child {
+  margin-right: 0;
+}
